@@ -1,11 +1,11 @@
 Bootstrap: docker
 From: ubuntu:17.10
 %files
-trf /RepeatMasker/
-Libraries /RepeatMasker/Libraries
-data /home/projects/data
-ctl /home/projects/ctl
-src /home/projects/src
+/home/johnskelly/singularity_folder/trf /RepeatMasker/
+/home/johnskelly/singularity_folder/Libraries /RepeatMasker/Libraries
+/home/johnskelly/singularity_folder/data /home/projects/data
+/home/johnskelly/singularity_folder/ctl /home/projects/ctl
+/home/johnskelly/singularity_folder/src /home/projects/src
 %post
 
 #FROM John Skelly Maker Docker
